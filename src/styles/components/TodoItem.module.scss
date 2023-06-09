@@ -1,0 +1,13 @@
+.todoItem{
+  display: flex;
+  padding: 5px 3px;
+  border-top: 1px solid var(--gray);
+}
+.todo{
+  color: var(--black);
+  margin-left: 10px;
+}
+.completed{
+  color: var(--gray);
+  text-decoration: line-through;
+}

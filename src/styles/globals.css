@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    color: var(--black);
+    margin: 0;
+}
+
+:root{
+    --black: #000000;
+    --gray: #EBEBEB;
+    --white: #FFFFFF;
+    --red: #FC836D;
+    --green: #1DC37E;
+}
