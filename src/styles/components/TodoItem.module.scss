@@ -1,13 +1,13 @@
-.todoItem{
+.todoItem {
   display: flex;
-  padding: 5px 3px;
+  padding: 10px 3px;
   border-top: 1px solid var(--gray);
 }
-.todo{
+.todo {
   color: var(--black);
   margin-left: 10px;
 }
-.completed{
+.completed {
   color: var(--gray);
   text-decoration: line-through;
 }

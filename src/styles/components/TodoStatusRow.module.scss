@@ -1,1 +1,28 @@
-3
+.statusRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 10px;
+  border-top: 1px solid var(--gray);
+  font-size: 12px;
+  color: var(--secondary);
+
+  :nth-child(1){
+    margin-left: 0;
+  }
+  *{
+    color: inherit;
+  }
+  span{
+    cursor: pointer;
+    padding: 3px 3px;
+  }
+  :last-child{
+    cursor: pointer;
+  }
+}
+
+.active {
+  border: 1px solid var(--red);
+  border-radius: 3px;
+}

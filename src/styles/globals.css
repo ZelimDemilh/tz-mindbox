@@ -1,14 +1,23 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    color: var(--black);
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  color: var(--black);
+  margin: 0;
+}
+body {
+  background-color: var(--gray);
 }
 
-:root{
-    --black: #000000;
-    --gray: #EBEBEB;
-    --white: #FFFFFF;
-    --red: #FC836D;
-    --green: #1DC37E;
+.App {
+  width: 400px;
+  margin: 0 auto;
+}
+
+:root {
+  --black: #000000;
+  --secondary: #a2a2a2;
+  --gray: #ebebeb;
+  --white: #ffffff;
+  --red: #e3a296;
+  --green: #1dc37e;
 }
